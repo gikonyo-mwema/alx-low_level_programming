@@ -1,10 +1,17 @@
 #include<stdio.h>
 /**
-*Main-Entry point
-*Return: Always 0 (success)
+* main - Entry point
+*
+* Description : "put() function for string"
+*
+* Return: Always 0 (Success)
 */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+	/*string initialisation*/
+	char string[] = "Programming is like building a multilingual puzzle\n";
+
+	puts(string);/*writing the  string to stdout */
+
+	return (0);
 }
