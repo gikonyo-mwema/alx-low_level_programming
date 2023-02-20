@@ -2,7 +2,7 @@
 /**
 * main - Entry point
 *
-* Description : "put() function for string"
+* puts : "prints a string"
 *
 * Return: Always 0 (Success)
 */
