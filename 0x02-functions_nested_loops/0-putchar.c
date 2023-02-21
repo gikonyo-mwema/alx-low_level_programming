@@ -2,6 +2,7 @@
 /**
  * main - Entry point
  *
+ * _putchar - Prints string
  *
  * Return - Always 0 (Success)
  */
