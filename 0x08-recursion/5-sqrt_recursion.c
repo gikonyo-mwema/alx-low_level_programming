@@ -3,7 +3,8 @@
  * square_root - find the natural square root
  * @i: number
  * @j: incrementor
- * Retun: square root
+ *
+ * Return: Always 0
  */
 int square_root(int i, int j)
 {
