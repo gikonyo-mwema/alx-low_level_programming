@@ -1,7 +1,7 @@
 #include "main.h"
 
-/*
- * main - Entry point
+/**
+ * main- print chars
  *
  * Return: 0 (success)
  */
