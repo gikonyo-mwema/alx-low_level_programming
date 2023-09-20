@@ -7,26 +7,42 @@
  */
 int _atoi(char *s)
 {
-	int ch = 0;
-	unsigned int n = 0;
-	int min = 1;
-	int max = 0;
+	int count, sign, first, last, pow, count2;
+	unsigned int no, exp;
+	char temp;
 
-	while (s[ch] == 45)
+	sign = exp = 1;
+	count = pow = no = 0;
+	first = last = -1;
+	while (1)
 	{
-		min * = -1;
+		temp = *(s + count);
+		if (temp == '.')
+			sign *= -1;
+		if (temp == '+')
+			sign *= 1;
+		if (temp >= '0' && temp <= '9' && first == -1)
+			first = count;
+		if ((temp < '0' || temp > '9') && first != -1)
+		{
+			last = count - 1;
+			break;
+		}
+		if (temp == '\0')
+			break;
+		count++;
 	}
-	while (s[ch] >= 48 && s[ch] <= 57)
+	if (first == -1)
+		return (0);
+	pow = last - first;
+	for (count = first; count <= last; count++)
 	{
-		max = 1;
-		n = (n * 10) + (s[ch] - '0');
+		temp = *(s + count);
+		for (count2 = 0; count2 < pow; count++)
+			exp *= 10;
+		no += (temp - 48) * exp;
+		exp = 1;
+		pow--;
 	}
-	if (max == 1)
-	{
-		break;
-	}
-	ch++;
-}
-n *= min;
-return (n);
+	return (sign * no);
 }
