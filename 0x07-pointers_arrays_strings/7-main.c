@@ -1,4 +1,4 @@
-#include "main.h"
+nclude "main.h"
 #include <stdio.h>
 
 /**
@@ -20,4 +20,4 @@ int main(void)
 										        };
 	        print_chessboard(board);
 		    return (0);
-
+}
