@@ -15,7 +15,7 @@ int palindrome1(char *a, int j)
 /**
  * palindrome2 - compare string vs its reverse
  * @a: string
- * j: length
+ * @j: length
  *
  * Return: success 1
  */
