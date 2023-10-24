@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdlib.h>
 /**
  * add_nodeint - Creates a node and adds it to a linked list
  * @head: pointer to head
