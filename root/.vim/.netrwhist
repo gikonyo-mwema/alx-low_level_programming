@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/root/alx-higher_level_programming/0x0B-python-input_output'
+let g:netrw_dirhist_7='/root/alx-system_engineering-devops/0x06-regular_expressions'
+let g:netrw_dirhist_6='/root/alx-system_engineering-devops'
+let g:netrw_dirhist_5='/root/alx-system_engineering-devops/0x04-loops_conditions_and_parsing'
+let g:netrw_dirhist_4='/root/alx-higher_level_programming/0x0C-python-almost_a_circle/tests'
+let g:netrw_dirhist_3='/root/alx-higher_level_programming/0x07-python-test_driven_development'
+let g:netrw_dirhist_2='/root/alx-higher_level_programming/0x05-python-exceptions'
+let g:netrw_dirhist_1='/root/monty'
+let g:netrw_dirhist_0='/root/monty/bytecodes'
+let g:netrw_dirhist_9='/root/alx-low_level_programming/0x18-dynamic_libraries'
